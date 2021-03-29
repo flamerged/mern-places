@@ -11,7 +11,7 @@ const UserList = ({ items }) => {
   }
 
   return (
-    <ul>
+    <ul className="center user-list">
       {items.map((user) => {
         return (
           <UserItem
