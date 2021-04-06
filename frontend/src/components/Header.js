@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <div className="header">
       <button className="header-menu">
-        <span>.</span>
-        <span>.</span>
-        <span>.</span>
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
       <h1 className="header-title">
         <Link to="/">Your Placees</Link>

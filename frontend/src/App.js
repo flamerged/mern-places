@@ -14,11 +14,13 @@ const App = () => {
   return (
     <Router>
       <Header></Header>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/places/new" component={NewPlace} />
-        <Redirect to="/" /> {/* Could be replaced with 404 page later */}
-      </Switch>
+      <main>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/places/new" component={NewPlace} />
+          <Redirect to="/" /> {/* Could be replaced with 404 page later */}
+        </Switch>
+      </main>
     </Router>
   );
 };
